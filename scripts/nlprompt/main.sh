@@ -3,7 +3,7 @@
 #cd ../..
 
 # custom config
-DATA=/path/to/datasets
+DATA=/home/wangzh/code-space-a6000/NLPrompt/my-datasets/caltech101
 TRAINER=NLPrompt
 
 DATASET=$1
@@ -13,7 +13,7 @@ RATE=$3
 TYPE=$4
 CLASS=$5
 
-for SEED in 1
+for SEED in 3
 do
     DIR=output/${DATASET}/${TRAINER}/${CFG}_${SHOTS}shots/noise_${TYPE}_${RATE}/seed${SEED}
     if [ -d "$DIR" ]; then

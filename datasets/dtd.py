@@ -83,6 +83,8 @@ class DescribableTextures(DatasetBase):
             n_train = round(n_total * p_trn)
             n_val = round(n_total * p_val)
             n_test = n_total - n_train - n_val
+            print(f"Category '{category}': {n_total} images -> "
+                  f"{n_train} train, {n_val} val, {n_test} test"    )
             assert n_train > 0 and n_val > 0 and n_test > 0
 
             if new_cnames is not None and category in new_cnames:

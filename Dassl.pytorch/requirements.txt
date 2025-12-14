@@ -3,7 +3,7 @@ yapf==0.29.0
 isort==4.3.21
 yacs
 gdown
-tb-nightly
+tensorboard
 future
 scipy
 scikit-learn
