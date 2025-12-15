@@ -12,4 +12,4 @@ ftfy
 regex
 wilds==1.2.2
 tabulate
-pot
+pot==0.8.0
