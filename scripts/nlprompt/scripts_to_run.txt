@@ -1,0 +1,94 @@
+# Caltech-101: 101 classes
+sapp bash scripts/nlprompt/main.sh caltech101 16 0.125 'sym' 101
+sapp bash scripts/nlprompt/main.sh caltech101 16 0.250 'sym' 101
+sapp bash scripts/nlprompt/main.sh caltech101 16 0.375 'sym' 101
+sapp bash scripts/nlprompt/main.sh caltech101 16 0.500 'sym' 101
+sapp bash scripts/nlprompt/main.sh caltech101 16 0.625 'sym' 101
+sapp bash scripts/nlprompt/main.sh caltech101 16 0.750 'sym' 101
+
+sapp bash scripts/nlprompt/main.sh caltech101 16 0.125 'asym' 101
+sapp bash scripts/nlprompt/main.sh caltech101 16 0.250 'asym' 101
+sapp bash scripts/nlprompt/main.sh caltech101 16 0.375 'asym' 101
+sapp bash scripts/nlprompt/main.sh caltech101 16 0.500 'asym' 101
+sapp bash scripts/nlprompt/main.sh caltech101 16 0.625 'asym' 101
+sapp bash scripts/nlprompt/main.sh caltech101 16 0.750 'asym' 101
+
+
+# UCF-101: 101 classes
+sapp bash scripts/nlprompt/main.sh ucf101 16 0.125 'sym' 101
+sapp bash scripts/nlprompt/main.sh ucf101 16 0.250 'sym' 101
+sapp bash scripts/nlprompt/main.sh ucf101 16 0.375 'sym' 101
+sapp bash scripts/nlprompt/main.sh ucf101 16 0.500 'sym' 101
+sapp bash scripts/nlprompt/main.sh ucf101 16 0.625 'sym' 101
+sapp bash scripts/nlprompt/main.sh ucf101 16 0.750 'sym' 101
+
+sapp bash scripts/nlprompt/main.sh ucf101 16 0.125 'asym' 101
+sapp bash scripts/nlprompt/main.sh ucf101 16 0.250 'asym' 101
+sapp bash scripts/nlprompt/main.sh ucf101 16 0.375 'asym' 101
+sapp bash scripts/nlprompt/main.sh ucf101 16 0.500 'asym' 101
+sapp bash scripts/nlprompt/main.sh ucf101 16 0.625 'asym' 101
+sapp bash scripts/nlprompt/main.sh ucf101 16 0.750 'asym' 101
+
+
+# Stanford Cars: 196 classes
+sapp bash scripts/nlprompt/main.sh stanford_cars 16 0.125 'sym' 196
+sapp bash scripts/nlprompt/main.sh stanford_cars 16 0.250 'sym' 196
+sapp bash scripts/nlprompt/main.sh stanford_cars 16 0.375 'sym' 196
+sapp bash scripts/nlprompt/main.sh stanford_cars 16 0.500 'sym' 196
+sapp bash scripts/nlprompt/main.sh stanford_cars 16 0.625 'sym' 196
+sapp bash scripts/nlprompt/main.sh stanford_cars 16 0.750 'sym' 196
+
+sapp bash scripts/nlprompt/main.sh stanford_cars 16 0.125 'asym' 196
+sapp bash scripts/nlprompt/main.sh stanford_cars 16 0.250 'asym' 196
+sapp bash scripts/nlprompt/main.sh stanford_cars 16 0.375 'asym' 196
+sapp bash scripts/nlprompt/main.sh stanford_cars 16 0.500 'asym' 196
+sapp bash scripts/nlprompt/main.sh stanford_cars 16 0.625 'asym' 196
+sapp bash scripts/nlprompt/main.sh stanford_cars 16 0.750 'asym' 196
+
+
+# Oxford Pets: 37 classes
+sapp bash scripts/nlprompt/main.sh oxford_pets 16 0.125 'sym' 37
+sapp bash scripts/nlprompt/main.sh oxford_pets 16 0.250 'sym' 37
+sapp bash scripts/nlprompt/main.sh oxford_pets 16 0.375 'sym' 37
+sapp bash scripts/nlprompt/main.sh oxford_pets 16 0.500 'sym' 37
+sapp bash scripts/nlprompt/main.sh oxford_pets 16 0.625 'sym' 37
+sapp bash scripts/nlprompt/main.sh oxford_pets 16 0.750 'sym' 37
+
+sapp bash scripts/nlprompt/main.sh oxford_pets 16 0.125 'asym' 37
+sapp bash scripts/nlprompt/main.sh oxford_pets 16 0.250 'asym' 37
+sapp bash scripts/nlprompt/main.sh oxford_pets 16 0.375 'asym' 37
+sapp bash scripts/nlprompt/main.sh oxford_pets 16 0.500 'asym' 37
+sapp bash scripts/nlprompt/main.sh oxford_pets 16 0.625 'asym' 37
+sapp bash scripts/nlprompt/main.sh oxford_pets 16 0.750 'asym' 37
+
+
+# DTD: 47 classes
+sapp bash scripts/nlprompt/main.sh dtd 16 0.125 'sym' 47
+sapp bash scripts/nlprompt/main.sh dtd 16 0.250 'sym' 47
+sapp bash scripts/nlprompt/main.sh dtd 16 0.375 'sym' 47
+sapp bash scripts/nlprompt/main.sh dtd 16 0.500 'sym' 47
+sapp bash scripts/nlprompt/main.sh dtd 16 0.625 'sym' 47
+sapp bash scripts/nlprompt/main.sh dtd 16 0.750 'sym' 47
+
+sapp bash scripts/nlprompt/main.sh dtd 16 0.125 'asym' 47
+sapp bash scripts/nlprompt/main.sh dtd 16 0.250 'asym' 47
+sapp bash scripts/nlprompt/main.sh dtd 16 0.375 'asym' 47
+sapp bash scripts/nlprompt/main.sh dtd 16 0.500 'asym' 47
+sapp bash scripts/nlprompt/main.sh dtd 16 0.625 'asym' 47
+sapp bash scripts/nlprompt/main.sh dtd 16 0.750 'asym' 47
+
+
+# EuroSAT: 10 classes
+sapp bash scripts/nlprompt/main.sh eurosat 16 0.125 'sym' 10
+sapp bash scripts/nlprompt/main.sh eurosat 16 0.250 'sym' 10
+sapp bash scripts/nlprompt/main.sh eurosat 16 0.375 'sym' 10
+sapp bash scripts/nlprompt/main.sh eurosat 16 0.500 'sym' 10
+sapp bash scripts/nlprompt/main.sh eurosat 16 0.625 'sym' 10
+sapp bash scripts/nlprompt/main.sh eurosat 16 0.750 'sym' 10
+
+sapp bash scripts/nlprompt/main.sh eurosat 16 0.125 'asym' 10
+sapp bash scripts/nlprompt/main.sh eurosat 16 0.250 'asym' 10
+sapp bash scripts/nlprompt/main.sh eurosat 16 0.375 'asym' 10
+sapp bash scripts/nlprompt/main.sh eurosat 16 0.500 'asym' 10
+sapp bash scripts/nlprompt/main.sh eurosat 16 0.625 'asym' 10
+sapp bash scripts/nlprompt/main.sh eurosat 16 0.750 'asym' 10
