@@ -13,7 +13,7 @@ RATE=$3
 TYPE=$4
 CLASS=$5
 
-for SEED in 1
+for SEED in 2
 do
     DIR=output/${DATASET}/${TRAINER}/${CFG}_${SHOTS}shots/noise_${TYPE}_${RATE}/seed${SEED}
     if [ -d "$DIR" ]; then

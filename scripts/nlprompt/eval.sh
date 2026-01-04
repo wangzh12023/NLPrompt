@@ -3,7 +3,7 @@
 #cd ../..
 
 # custom config
-DATA=/path/to/datasets
+DATA=/home/wangzh/code-sapce/NLPrompt/data/
 TRAINER=NLPrompt
 SHOTS=16
 NCTX=16
