@@ -26,6 +26,9 @@ import datasets.imagenet_a
 import datasets.imagenet_r
 
 import trainers.nlprompt
+import trainers.coop
+import trainers.gce
+import trainers.gcenlprompt
 
 
 def print_args(args, cfg):
@@ -87,6 +90,28 @@ def extend_cfg(cfg):
     """
     from yacs.config import CfgNode as CN
 
+    # CoOp trainer config
+    cfg.TRAINER.COOP = CN()
+    cfg.TRAINER.COOP.N_CTX = 16  # number of context vectors
+    cfg.TRAINER.COOP.CSC = False  # class-specific context
+    cfg.TRAINER.COOP.CTX_INIT = ""  # initialization words
+    cfg.TRAINER.COOP.PREC = "fp16"  # fp16, fp32, amp
+    cfg.TRAINER.COOP.CLASS_TOKEN_POSITION = "end"  # 'middle' or 'end' or 'front'
+
+    # GCE trainer config
+    cfg.TRAINER.GCE = CN()
+    cfg.TRAINER.GCE.N_CTX = 16  # number of context vectors
+    cfg.TRAINER.GCE.CSC = False  # class-specific context
+    cfg.TRAINER.GCE.CTX_INIT = ""  # initialization words
+    cfg.TRAINER.GCE.PREC = "fp16"  # fp16, fp32, amp
+    cfg.TRAINER.GCE.CLASS_TOKEN_POSITION = "end"  # 'middle' or 'end' or 'front'
+    cfg.TRAINER.GCE.Q = 0.7  # GCE loss parameter q
+
+    # GCE_NLPrompt trainer config
+    cfg.TRAINER.GCE_NLPROMPT = CN()
+    cfg.TRAINER.GCE_NLPROMPT.K = 1.0  # exponent parameter k for q = (1-a)^k
+
+    # NLPrompt trainer config
     cfg.TRAINER.NLPROMPT = CN()
     cfg.TRAINER.NLPROMPT.N_CTX = 16  # number of context vectors
     cfg.TRAINER.NLPROMPT.CSC = False  # class-specific context
